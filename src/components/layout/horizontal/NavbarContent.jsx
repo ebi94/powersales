@@ -7,8 +7,6 @@ import classnames from 'classnames'
 
 // Component Imports
 import Logo from '@components/layout/shared/Logo'
-// import NotificationsDropdown from '@components/layout/shared/NotificationsDropdown'
-// import NavSearch from '@components/layout/shared/search'
 import UserDropdown from '@components/layout/shared/UserDropdown'
 import NavToggle from './NavToggle'
 
