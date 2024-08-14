@@ -55,9 +55,6 @@ const TrackingMap = props => {
       ]
     }
   } = props
-  console.log('carIndex', carIndex)
-  console.log('viewState', viewState)
-  console.log('geoJson', geojson)
 
   // Hooks
   const mapRef = useRef()

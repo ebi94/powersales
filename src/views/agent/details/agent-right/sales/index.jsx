@@ -2,6 +2,7 @@
 
 // MUI Imports
 import Grid from '@mui/material/Grid'
+
 import AgentSalesListTable from './AgentSalesListTable'
 
 // Component Imports
@@ -77,6 +78,7 @@ const SalesTab = () => {
       dueDate: '24 Aug 2024'
     }
   ]
+
   return (
     <Grid container spacing={6}>
       <Grid item xs={12}>

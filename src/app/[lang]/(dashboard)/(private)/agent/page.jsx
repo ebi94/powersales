@@ -1,5 +1,4 @@
 import AgentListTable from '@/views/agent/AgentListTable'
-// Data Imports
 import { getEcommerceData } from '@/app/server/actions'
 
 /**
@@ -19,7 +18,6 @@ import { getEcommerceData } from '@/app/server/actions'
   return res.json()
 } */
 const AgentListTablePage = async () => {
-  // Vars
   const data = await getEcommerceData()
 
   return <AgentListTable customerData={data?.customerData} />

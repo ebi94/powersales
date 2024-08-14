@@ -13,7 +13,6 @@ import Tab from '@mui/material/Tab'
 import CustomTabList from '@core/components/mui/TabList'
 
 const CompanyRight = ({ tabContentList }) => {
-  console.log('tabContentList', tabContentList['agent'])
   // States
   const [activeTab, setActiveTab] = useState('agent')
 

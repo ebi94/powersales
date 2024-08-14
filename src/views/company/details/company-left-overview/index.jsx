@@ -1,5 +1,6 @@
 // MUI Imports
 import Grid from '@mui/material/Grid'
+
 import CompanyDetails from './CompanyDetails'
 
 // Component Imports
